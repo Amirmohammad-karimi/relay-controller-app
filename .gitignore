@@ -97,3 +97,6 @@ SmartSimote.apk
 apk_extract/
 analysis_libs/
 parla-home.html
+
+# Published installable release
+!/Parla-Control-v1.1.1.apk
