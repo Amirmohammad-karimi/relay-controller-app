@@ -1,0 +1,99 @@
+# Android / Gradle build output
+.gradle/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local Android SDK and downloaded build toolchains
+local.properties
+.toolchain/
+
+# Compiled packages and binaries
+*.apk
+*.aab
+*.ap_
+*.aar
+*.dex
+*.class
+*.so
+
+# Signing keys and local signing configuration
+*.jks
+*.keystore
+*.p12
+*.pfx
+keystore.properties
+signing.properties
+
+# IDE and editor state
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.fleet/
+.classpath
+.project
+.settings/
+.factorypath
+out/
+
+# Kotlin / Java tooling
+.kotlin/
+.kotlin_module
+hs_err_pid*
+replay_pid*
+
+# Python helpers used for local analysis
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Test, coverage, lint, and profiling output
+.coverage
+coverage/
+reports/
+test-results/
+lint-results*.html
+lint-results*.xml
+*.hprof
+*.trace
+
+# Logs, caches, and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+.tmp/
+tmp/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+secrets.properties
+
+# Operating-system metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Local Codex / agent workspace metadata
+.agents/
+.codex/
+
+# Reverse-engineering and one-off research artifacts
+SmartSimote.apk
+apk_extract/
+analysis_libs/
+parla-home.html

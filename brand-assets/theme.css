@@ -1,0 +1,389 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "woodmart-font";
+	src: url("//parlasazan.com/wp-content/themes/woodmart/fonts/woodmart-font-1-400.woff2?v=7.3.4") format("woff2");
+}
+
+.wd-popup.wd-promo-popup{
+	background-color:#111111;
+	background-image: none;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:left center;
+}
+
+.page-title-default{
+	background-color:#0a0a0a;
+	background-image: url(https://parlasazan.com/wp-content/uploads/2025/08/Frame-1695578734-2.webp);
+	background-size:cover;
+	background-position:center center;
+}
+
+.footer-container{
+	background-color:#ffffff;
+	background-image: none;
+}
+
+:root{
+--wd-text-font:"IranSans", Arial, Helvetica, sans-serif;
+--wd-text-font-weight:400;
+--wd-text-color:#777777;
+--wd-text-font-size:14px;
+}
+:root{
+--wd-title-font:"peyda", Arial, Helvetica, sans-serif;
+--wd-title-font-weight:600;
+--wd-title-color:#242424;
+}
+:root{
+--wd-entities-title-font:"peyda", Arial, Helvetica, sans-serif;
+--wd-entities-title-font-weight:500;
+--wd-entities-title-color:#333333;
+--wd-entities-title-color-hover:rgb(51 51 51 / 65%);
+}
+:root{
+--wd-alternative-font:"peyda", Arial, Helvetica, sans-serif;
+}
+:root{
+--wd-widget-title-font:"peyda", Arial, Helvetica, sans-serif;
+--wd-widget-title-font-weight:600;
+--wd-widget-title-transform:uppercase;
+--wd-widget-title-color:#333;
+--wd-widget-title-font-size:16px;
+}
+:root{
+--wd-header-el-font:"peyda", Arial, Helvetica, sans-serif;
+--wd-header-el-font-weight:400;
+--wd-header-el-transform:uppercase;
+--wd-header-el-font-size:16px;
+}
+:root{
+--wd-primary-color:rgb(40,159,134);
+}
+:root{
+--wd-alternative-color:rgb(90,210,178);
+}
+:root{
+--wd-link-color:#333333;
+--wd-link-color-hover:#242424;
+}
+:root{
+--btn-default-bgcolor:rgb(40,159,134);
+}
+:root{
+--btn-default-bgcolor-hover:rgb(27,124,103);
+}
+:root{
+--btn-accented-bgcolor:rgb(40,159,134);
+}
+:root{
+--btn-accented-bgcolor-hover:rgb(27,124,103);
+}
+:root{
+--notices-success-bg:#459647;
+}
+:root{
+--notices-success-color:#fff;
+}
+:root{
+--notices-warning-bg:#E0B252;
+}
+:root{
+--notices-warning-color:#fff;
+}
+
+	:root{
+					
+			
+							--wd-form-brd-radius: 0px;
+					
+					--wd-form-brd-width: 2px;
+		
+					--btn-default-color: #fff;
+		
+					--btn-default-color-hover: #333;
+		
+					--btn-accented-color: #fff;
+		
+					--btn-accented-color-hover: #fff;
+		
+					
+			
+							--btn-default-brd-radius: 35px;
+				--btn-default-box-shadow: none;
+				--btn-default-box-shadow-hover: none;
+			
+					
+					
+			
+							--btn-accented-brd-radius: 35px;
+				--btn-accented-box-shadow: none;
+				--btn-accented-box-shadow-hover: none;
+			
+					
+							
+					--wd-brd-radius: 8px;
+		
+			}
+
+	
+	
+			:root{
+			--wd-container-w: 1222px;
+		}
+	
+			@media (min-width: 1239px) {
+			.platform-Windows .wd-section-stretch > .elementor-container {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+		@media (min-width: 1222px) {
+			html:not(.platform-Windows) .wd-section-stretch > .elementor-container {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	
+			div.wd-popup.popup-quick-view {
+			max-width: 920px;
+		}
+	
+	
+	
+	
+			.woodmart-woocommerce-layered-nav .wd-scroll-content {
+			max-height: 223px;
+		}
+	
+	
+@font-face {
+	font-family: "peyda";
+	src: url("//parlasazan.com/wp-content/uploads/2025/08/PeydaWeb-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "peyda";
+	src: url("//parlasazan.com/wp-content/uploads/2025/08/PeydaWeb-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "peyda";
+	src: url("//parlasazan.com/wp-content/uploads/2025/08/PeydaWeb-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "peyda";
+	src: url("//parlasazan.com/wp-content/uploads/2025/08/PeydaWeb-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "peyda";
+	src: url("//parlasazan.com/wp-content/uploads/2025/08/PeydaWeb-ExtraBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "IranSans";
+	src: url("//parlasazan.com/wp-content/uploads/2025/09/IRANSansWeb.woff2") format("woff2"), 
+url("//parlasazan.com/wp-content/uploads/2025/09/IRANSansWeb.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Nian-Bold";
+	src: url("//parlasazan.com/wp-content/uploads/2025/09/vertopal.com_NIAN-BOLD.woff2") format("woff2"), 
+url("//parlasazan.com/wp-content/uploads/2025/09/NIAN-BOLD.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Nian-Black";
+	src: url("//parlasazan.com/wp-content/uploads/2025/09/vertopal.com_NIAN-BLACK.woff2") format("woff2"), 
+url("//parlasazan.com/wp-content/uploads/2025/09/NIAN-BLACK.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
+
+/* هدر چسبان */
+.whb-sticked .whb-general-header{
+    background-color: #fff!important;
+}
+.whb-sticked .whb-flex-row.whb-general-header-inner {
+    padding-bottom: 0px!important;
+}
+/* دکمه تماس هدر */
+.myCallBtn span.wd-btn-icon {
+    background-color: #289F86;
+    padding: 5px;
+    border-radius: 100%;
+	  margin-bottom:8px;
+}
+.whb-row.whb-general-header a.btn.btn-scheme-dark.btn-scheme-hover-dark{
+    background-color: transparent!important;
+	  gap:10px!important;
+}
+/* دکمه ها */
+.myBtn span.elementor-button-icon {
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 100%;
+    transition: 1s!important;
+}
+.myBtn span.elementor-button-text {
+    display: flex;
+    align-items: center;
+}
+.myBtn:hover span.elementor-button-icon {
+    transform: translateX(18px);
+}
+/* سربرگ صفحات */
+.page-title .entry-title{
+    padding-bottom:40px;
+}
+/* جاستیفای متون */
+.myProText p{
+    text-align: justify!important;
+}
+/* مپ تماس با ما */
+.myMap iframe {
+    border-radius: 15px;
+}
+/* گرویتی فرم */
+#gform_submit_button_1, #gform_submit_button_2 {
+	background-color:#5AD1B2!important;
+}
+/* نمایندگی های صفحه اصلی */
+.e-hotspot__tooltip.e-hotspot--tooltip-position.e-hotspot--fade-in-out {
+    backdrop-filter: blur(15px);
+    border: 1px solid #fff;
+}
+/*  سایه محصولات صفحه اصلی*/
+.ourProducts .elementor-flip-box__layer__overlay{
+    box-shadow: 0px 4px 40px 0px #289F861A;
+}
+/* کروی ویدیو های محصولات */
+.myVideo iframe {
+    border-radius: 15px !important;
+}
+/* حذف عنوان کامنت و کلمه دیدگاه در برگه سوالات متداول بخش دیدگاه */
+h2.comments-title {
+    display: none;
+}
+p.comment-form-comment label {
+    display: none !important;
+}
+/* انیمیشن چشمک زن شرکای ما */
+.blink1 img {
+  animation: fadeBlink 5s ease-in-out infinite;
+}
+.blink2 img {
+  animation: fadeBlink 5s ease-in-out 8s infinite;
+}
+@keyframes fadeBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; } 
+}
+/* سربرگ مقالات تکی */
+.page-title.title-blog {
+	  height:310px;
+    background-color: #0a0a0a;
+    background-image: url(https://parlasazan.com/wp-content/uploads/2025/08/Frame-1695578734-2.webp);
+    background-size: cover;
+    background-position: center center;
+}
+.title-blog span.entry-title.title{
+    padding-top: 200px;
+	  text-align:center;
+}@media (min-width: 1025px) {
+	/* پس زمینه هدر */
+.wd-nav.wd-style-bg>li>a:before {
+    background-color: transparent!important;
+    background-image: url(https://parlasazan.com/wp-content/uploads/2025/08/Rectangle-5-7.webp);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+/* هدر */
+.whb-flex-row.whb-general-header-inner {
+    padding-bottom: 12px;
+}
+/* عکس چشمی هدر */
+.whb-main-header img.aligncenter {
+    transform: translateY(-45px)!important;
+}
+/* هاور ویژگیهای ما درباره ما */
+.ourQualify:hover {
+    transform: scale(1.1);
+}
+/* نمایندگی های صفحه اصلی */
+.elementor-repeater-item-ae507b0 .e-hotspot__label {
+    font-size: 10px !important;
+}
+.elementor-repeater-item-152169f .e-hotspot__label {
+    font-size: 12px !important;
+}
+/* بردرهای شرکتهای تجاری ما */
+.myBorderGrad {border-image: 
+    linear-gradient(
+      to bottom, 
+      #fff, 
+      #E0E0E0
+    ) 1 100%;}
+    
+.myBorderGrad2 {
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      #E0E0E0, 
+      #fff
+    ) 1 100%;
+}
+.myBorderGrad3 {
+    border-image: linear-gradient(to right, #fff, #E0E0E0) 1;
+}
+.myBorderGrad4 {
+    border-image: linear-gradient(to right, #E0E0E0, #fff) 1;
+}
+}
+
+@media (max-width: 576px) {
+	/* دکمه تماس هدر */
+img.attachment-.size- {
+    width: 18px!important;
+}
+/* هدر */
+.whb-flex-row.whb-general-header-inner {
+    padding-bottom: 18px;
+}
+/* عکس چشمی هدر */
+.whb-main-header img.aligncenter {
+    transform: translateY(-40px)!important;
+}
+/* نمایندگی های صفحه اصلی */
+.elementor-repeater-item-ae507b0 .e-hotspot__label {
+    font-size: 8px !important;
+}
+.elementor-repeater-item-152169f .e-hotspot__label {
+    font-size: 9px !important;
+}
+/* سربرگ مقالات تکی */
+.page-title.title-blog {
+	  height:210px;
+}
+.title-blog span.entry-title.title{
+    padding-top: 0px;
+}
+}
+

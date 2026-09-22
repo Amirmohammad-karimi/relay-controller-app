@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="parla_primary">#289F86</color>
+    <color name="parla_accent">#5AD2B2</color>
+    <color name="parla_mint">#99EED7</color>
+    <color name="parla_pale">#BCFBEE</color>
+    <color name="parla_background">#F4FAF8</color>
+    <color name="parla_surface">#FFFFFF</color>
+    <color name="parla_ink">#242424</color>
+    <color name="parla_muted">#68746F</color>
+    <color name="parla_danger">#C84F45</color>
+</resources>
